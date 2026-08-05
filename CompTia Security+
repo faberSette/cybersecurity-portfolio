@@ -4,3 +4,33 @@
   •	Riepilogare i concetti di sicurezza dele informazioni
   •	Confrontare e contrapporre i tipi di controlli di sicurezza
   •	Descrivere ruoli e responsabilità di sicurezza
+# Argomento 1A
+## Concetti di Sicurezza
+
+Information Security
+La sicurezza delle informazioni può essere riassunta dalla triade CIA:
+Confidentialy
+•	L’informazione deve essere letta soltanto dalle persone autorizzate
+•	Mantiene segreti i dati sensibili.
+•	Usa strumenti come la crittografia.
+Integrity
+•	Il dato deve essere memorizzato e trasferito e non deve essere manomesso. Ogni modifica deve essere autorizzata. Assicura l’affidabilità delle informazioni
+Availability
+•	Il dato deve essere accessibile (disponibile) a chi lo deve vedere o modificare quindi nel momento del bisogno, assicura il funzionamento continuo dei sistemi e previene blocchi causati da Attacchi
+Non-repudiation
+•	Non può essere negata la creazione del dato e si basa su firme e registri di traccaimento (log)
+Estensione della triade CIA è il modello PAIN
+Privacy – Authentication – Integrity – Non Repudiation
+Cyberscurity Framework
+
+ 
+Gap Analysys
+Il GAP è la differenza tra i nostri requisiti e quelli che dovremmo avere in base ai benchmark.
+I banchmark possono essere obbligatori oppure facoltativi
+La GAP ANALYSYS serve a vedere quanto siamo vicini e aderenti ai Benchmark.
+
+Access Control
+Identification: Il proprietario del sistema conferma l’identità dell’utente e crea un account
+Authentication: L’utente si autentica inserendo le credenziali fornite il sistema le confronta con le credenziali crittografate
+Authorization: Per ogni azione che deve eseguire un utente viene controllato un elenco di autorizzazioni per consentire oppure negare l’azione
+Accounting: il sistema tiene traccia dell’utilizzo delle autorizzazioni in un registro. L’utente non può impedire questa verifica
