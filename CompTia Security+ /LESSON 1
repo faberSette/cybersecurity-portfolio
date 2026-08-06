@@ -1,36 +1,152 @@
 # CompTIA Security+ SY0-701
+
 # Lesson 1 - Sommario dei concetti fondamentali di Sicurezza
-# Obiettivi:
-  •	Riepilogare i concetti di sicurezza dele informazioni
-  •	Confrontare e contrapporre i tipi di controlli di sicurezza
-  •	Descrivere ruoli e responsabilità di sicurezza
+
+## Obiettivi
+
+- Riepilogare i concetti di sicurezza delle informazioni.
+- Confrontare e contrapporre i tipi di controlli di sicurezza.
+- Descrivere ruoli e responsabilità di sicurezza.
+
+---
+
 # Argomento 1A
+
 ## Concetti di Sicurezza
 
-Information Security
-La sicurezza delle informazioni può essere riassunta dalla triade CIA:
-Confidentialy
-•	L’informazione deve essere letta soltanto dalle persone autorizzate
-•	Mantiene segreti i dati sensibili.
-•	Usa strumenti come la crittografia.
-Integrity
-•	Il dato deve essere memorizzato e trasferito e non deve essere manomesso. Ogni modifica deve essere autorizzata. Assicura l’affidabilità delle informazioni
-Availability
-•	Il dato deve essere accessibile (disponibile) a chi lo deve vedere o modificare quindi nel momento del bisogno, assicura il funzionamento continuo dei sistemi e previene blocchi causati da Attacchi
-Non-repudiation
-•	Non può essere negata la creazione del dato e si basa su firme e registri di traccaimento (log)
-Estensione della triade CIA è il modello PAIN
-Privacy – Authentication – Integrity – Non Repudiation
-Cyberscurity Framework
+### Information Security
 
- 
-Gap Analysys
+La sicurezza delle informazioni può essere riassunta dalla triade CIA.
+
+### Confidentiality
+
+- L'informazione deve essere letta soltanto dalle persone autorizzate.
+- Mantiene segreti i dati sensibili.
+- Utilizza strumenti come la crittografia.
+
+### Integrity
+
+- Il dato deve essere memorizzato e trasferito senza essere manomesso.
+- Ogni modifica deve essere autorizzata.
+- Assicura l'affidabilità delle informazioni.
+
+### Availability
+
+- Il dato deve essere accessibile (disponibile) a chi deve visualizzarlo o modificarlo nel momento del bisogno.
+- Assicura il funzionamento continuo dei sistemi e previene blocchi causati da attacchi.
+
+### Non-Repudiation
+
+- Non può essere negata la creazione del dato e si basa su firme digitali e registri di tracciamento (log).
+
+L'estensione della triade CIA è il modello **PAIN**:
+
+- Privacy
+- Authentication
+- Integrity
+- Non-Repudiation
+
+### Cybersecurity Framework
+
+### Gap Analysis
+
 Il GAP è la differenza tra i nostri requisiti e quelli che dovremmo avere in base ai benchmark.
-I banchmark possono essere obbligatori oppure facoltativi
-La GAP ANALYSYS serve a vedere quanto siamo vicini e aderenti ai Benchmark.
 
-Access Control
-Identification: Il proprietario del sistema conferma l’identità dell’utente e crea un account
-Authentication: L’utente si autentica inserendo le credenziali fornite il sistema le confronta con le credenziali crittografate
-Authorization: Per ogni azione che deve eseguire un utente viene controllato un elenco di autorizzazioni per consentire oppure negare l’azione
-Accounting: il sistema tiene traccia dell’utilizzo delle autorizzazioni in un registro. L’utente non può impedire questa verifica
+I benchmark possono essere obbligatori oppure facoltativi.
+
+La Gap Analysis serve a verificare quanto siamo vicini e aderenti ai benchmark.
+
+### Access Control
+
+**Identification:** il proprietario del sistema conferma l'identità dell'utente e crea un account.
+
+**Authentication:** l'utente si autentica inserendo le credenziali fornite. Il sistema le confronta con le credenziali crittografate.
+
+**Authorization:** per ogni azione che deve eseguire un utente viene controllato un elenco di autorizzazioni per consentire oppure negare l'azione.
+
+**Accounting:** il sistema tiene traccia dell'utilizzo delle autorizzazioni in un registro. L'utente non può impedire questa verifica.
+
+---
+
+# Argomento 1B
+
+## Piramide delle categorie dei controlli di sicurezza
+
+- **Managerial:** controlli direttivi che forniscono la supervisione del sistema.
+- **Operational:** si basano sulle persone per essere implementati (es. guardia giurata).
+- **Technical:** si implementano in sistemi operativi, software e dispositivi di sicurezza.
+- **Physical:** dispositivi che mediano l'accesso ai locali e all'hardware (es. telecamere).
+
+## Tipi di funzionalità dei controlli di sicurezza 1
+
+### Preventiva
+
+- Prevengono il verificarsi di un evento. Limitano fisicamente o logicamente l'accesso non autorizzato.
+- Operano prima di un attacco.
+
+### Detective
+
+- Identificano ciò che accade durante un attacco o rilevano un attacco avvenuto con successo oppure un tentativo di attacco.
+- Operano durante un attacco.
+
+### Correttivo
+
+- Rispondono dopo che un evento è accaduto, lo risolvono e cercano di evitare che si ripeta.
+- Operano dopo un attacco.
+
+## Tipi di funzionalità dei controlli di sicurezza 2
+
+### Directive
+
+- Forniscono istruzioni e definiscono le modalità di applicazione dei controlli di sicurezza.
+
+### Deterrenti
+
+- Scoraggiano fisicamente l'intrusione.
+
+### Compensativa
+
+- Se non è possibile applicare un controllo, ne deve essere applicato uno compensativo di efficacia uguale o superiore, in base al framework adottato.
+
+---
+
+# Information Security Roles and Responsibilities
+
+## Overall Responsibility
+
+- Chief Information Officer (CIO)
+- Chief Security Officer (CSO)
+
+## Managerial
+
+## Technical
+
+- Information System Security Officer (ISSO): protegge i dati e l'infrastruttura IT.
+
+## Non-technical
+
+- Tutti i dipendenti.
+
+## Due Care / Liability
+
+- Responsabilità esterna (consulenti e persone esterne all'azienda che operano per conto dell'azienda).
+
+---
+
+# Information Security Competencies
+
+- Risk assessments and testing
+- Specifying, sourcing, installing, and configuring secure devices and software
+- Access control and user privileges
+- Auditing logs and events
+- Incident response and disaster recovery
+- Security training and education programs
+
+---
+
+# Information Security Business Units
+
+- Security Operations Center (SOC)
+- DevSecOps (Development, Security and Operations)
+- Cyber Incident Response Team (CIRT)
+
